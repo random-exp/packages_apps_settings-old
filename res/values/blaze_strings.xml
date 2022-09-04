@@ -190,4 +190,8 @@
     <string name="model_summary">Model, phone number, IMEI, etc</string>
     <string name="model_name">Device status</string>
     <string name="legal_summary">Licenses and legal</string>
+
+    <!-- Blaze House -->
+    <string name="blazehouse_title">Blaze House</string>
+    <string name="blazehouse_summary">Get amazed with blaze!</string>
 </resources>

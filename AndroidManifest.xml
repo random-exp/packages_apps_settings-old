@@ -4593,5 +4593,17 @@
             android:taskAffinity="com.android.settings.applock"
             android:launchMode="singleTask" />
 
+        <!-- BlazeHouse -->
+        <activity android:name=".Settings$BlazeHouseActivity"
+            android:label="@string/blazehouse_title"
+            android:icon="@drawable/ic_homepage_blaze"
+            android:exported="true"
+            android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.blaze.house.BlazeHouse" />
+        </activity>
     </application>
 </manifest>
