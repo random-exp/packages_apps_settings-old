@@ -12,8 +12,6 @@
 -->
 <resources
     xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-
-    <color name="homepage_blaze_background">#FFCD00</color>
     
     <!-- xd. Preference Card -->
      <dimen name="xd_pref_card_radius">28dp</dimen>
@@ -25,4 +23,8 @@
      <dimen name="xd_toolbar_height">225dp</dimen>
      <dimen name="xd_toolbar_expanded_title_margin_start">21dp</dimen>
      <dimen name="xd_toolbar_expanded_title_margin_end">75dp</dimen>
+
+    <!-- Dashboard -->
+    <color name="homepage_blaze_background">#FFCD00</color>
+    <color name="blaze_accent_ripple">@android:color/system_accent1_500</color>
 </resources>

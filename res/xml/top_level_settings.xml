@@ -55,7 +55,7 @@
         android:title="@string/blazehouse_title"
         android:summary="@string/blazehouse_summary"
         android:icon="@drawable/ic_settings_blaze"
-        android:order="-130"
+        android:order="-170"
         android:fragment="com.blaze.house.BlazeHouse"/>
 
     <com.android.settings.widget.HomepagePreference
