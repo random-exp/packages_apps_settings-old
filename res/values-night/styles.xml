@@ -30,7 +30,7 @@
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
         <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
     </style>
-    
+
     <style name="HomepageTitleText" parent="CollapsingToolbarTitle.Expanded">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
